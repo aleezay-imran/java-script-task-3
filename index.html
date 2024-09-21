@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function checkAgeDiscount(age) {
+  if (age >= 65) {
+    return "You get a 10% discount";
+  } else if (age >= 18 && age <= 25) {
+    return "You get a 5% discount";
+  } else {
+    return "No discount";
+  }
+}
+
+// Default age value
+var defaultAge = 20;
+
+// Check and display the discount
+var discountMessage = checkAgeDiscount(defaultAge);
+console.log(discountMessage);
+    </script>
+</body>
+</html>
